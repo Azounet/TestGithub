@@ -1,0 +1,50 @@
+2017-01-01T23:52:43.691514+00:00 app[api]: Release v1 created by user emilien.humler@gmail.com
+2017-01-01T23:52:43.691514+00:00 app[api]: Initial release by user emilien.humler@gmail.com
+2017-01-01T23:52:43.863919+00:00 app[api]: Release v2 created by user emilien.humler@gmail.com
+2017-01-01T23:52:43.863919+00:00 app[api]: Enable Logplex by user emilien.humler@gmail.com
+2017-01-01T23:53:07.655680+00:00 heroku[slug-compiler]: Slug compilation started
+2017-01-01T23:58:09.060043+00:00 heroku[slug-compiler]: Slug compilation started
+2017-01-02T00:23:36.900204+00:00 heroku[router]: at=info code=H81 desc="Blank app" method=GET path="/" host=dry-sands-46726.herokuapp.com request_id=53d531fa-7b91-4c8e-ba5b-0740ba1a3de0 fwd="82.228.42.155" dyno= connect= service= status=502 bytes=
+2017-01-02T00:23:37.323217+00:00 heroku[router]: at=info code=H81 desc="Blank app" method=GET path="/favicon.ico" host=dry-sands-46726.herokuapp.com request_id=ffef0353-ee86-448f-81b1-2f4ddc4bf2f4 fwd="82.228.42.155" dyno= connect= service= status=502 bytes=
+2017-01-02T00:24:23.554950+00:00 app[api]: Deploy 2be4d16 by user emilien.humler@gmail.com
+2017-01-02T00:24:23.554950+00:00 app[api]: Release v3 created by user emilien.humler@gmail.com
+2017-01-02T00:24:23.874880+00:00 heroku[slug-compiler]: Slug compilation started
+2017-01-02T00:24:23.874903+00:00 heroku[slug-compiler]: Slug compilation finished
+2017-01-02T00:24:25.085561+00:00 heroku[web.1]: Starting process with command `node web.js`
+2017-01-02T00:24:27.367989+00:00 app[web.1]: /app/node_modules/express/lib/express.js:89
+2017-01-02T00:24:27.368006+00:00 app[web.1]:       throw new Error('Most middleware (like ' + name + ') is no longer bundled with Express and must be installed separately. Please see https://github.com/senchalabs/connect#middleware.');
+2017-01-02T00:24:27.368007+00:00 app[web.1]:       ^
+2017-01-02T00:24:27.368012+00:00 app[web.1]: 
+2017-01-02T00:24:27.368013+00:00 app[web.1]: Error: Most middleware (like logger) is no longer bundled with Express and must be installed separately. Please see https://github.com/senchalabs/connect#middleware.
+2017-01-02T00:24:27.368014+00:00 app[web.1]:     at Function.get (/app/node_modules/express/lib/express.js:89:13)
+2017-01-02T00:24:27.368014+00:00 app[web.1]:     at Object.<anonymous> (/app/web.js:3:39)
+2017-01-02T00:24:27.368015+00:00 app[web.1]:     at Module._compile (module.js:570:32)
+2017-01-02T00:24:27.368016+00:00 app[web.1]:     at Object.Module._extensions..js (module.js:579:10)
+2017-01-02T00:24:27.368016+00:00 app[web.1]:     at Module.load (module.js:487:32)
+2017-01-02T00:24:27.368017+00:00 app[web.1]:     at tryModuleLoad (module.js:446:12)
+2017-01-02T00:24:27.368017+00:00 app[web.1]:     at Function.Module._load (module.js:438:3)
+2017-01-02T00:24:27.368018+00:00 app[web.1]:     at Module.runMain (module.js:604:10)
+2017-01-02T00:24:27.368018+00:00 app[web.1]:     at run (bootstrap_node.js:394:7)
+2017-01-02T00:24:27.368019+00:00 app[web.1]:     at startup (bootstrap_node.js:149:9)
+2017-01-02T00:24:27.459019+00:00 heroku[web.1]: State changed from starting to crashed
+2017-01-02T00:24:27.460028+00:00 heroku[web.1]: State changed from crashed to starting
+2017-01-02T00:24:27.459000+00:00 heroku[web.1]: Process exited with status 1
+2017-01-02T00:24:28.871914+00:00 heroku[web.1]: Starting process with command `node web.js`
+2017-01-02T00:24:30.992635+00:00 heroku[web.1]: Process exited with status 1
+2017-01-02T00:24:30.920847+00:00 app[web.1]: /app/node_modules/express/lib/express.js:89
+2017-01-02T00:24:30.920867+00:00 app[web.1]: 
+2017-01-02T00:24:30.920868+00:00 app[web.1]: Error: Most middleware (like logger) is no longer bundled with Express and must be installed separately. Please see https://github.com/senchalabs/connect#middleware.
+2017-01-02T00:24:30.920865+00:00 app[web.1]:       throw new Error('Most middleware (like ' + name + ') is no longer bundled with Express and must be installed separately. Please see https://github.com/senchalabs/connect#middleware.');
+2017-01-02T00:24:30.920866+00:00 app[web.1]:       ^
+2017-01-02T00:24:30.920869+00:00 app[web.1]:     at Function.get (/app/node_modules/express/lib/express.js:89:13)
+2017-01-02T00:24:30.920870+00:00 app[web.1]:     at Object.<anonymous> (/app/web.js:3:39)
+2017-01-02T00:24:30.920870+00:00 app[web.1]:     at Module._compile (module.js:570:32)
+2017-01-02T00:24:30.920871+00:00 app[web.1]:     at Module.load (module.js:487:32)
+2017-01-02T00:24:30.920871+00:00 app[web.1]:     at Object.Module._extensions..js (module.js:579:10)
+2017-01-02T00:24:30.920872+00:00 app[web.1]:     at tryModuleLoad (module.js:446:12)
+2017-01-02T00:24:30.920872+00:00 app[web.1]:     at Function.Module._load (module.js:438:3)
+2017-01-02T00:24:30.920874+00:00 app[web.1]:     at startup (bootstrap_node.js:149:9)
+2017-01-02T00:24:30.920873+00:00 app[web.1]:     at Module.runMain (module.js:604:10)
+2017-01-02T00:24:30.920874+00:00 app[web.1]:     at run (bootstrap_node.js:394:7)
+2017-01-02T00:24:31.006792+00:00 heroku[web.1]: State changed from starting to crashed
+2017-01-02T00:24:39.595028+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=dry-sands-46726.herokuapp.com request_id=697daadd-f9bc-4797-be29-c7ae3211a9b0 fwd="82.228.42.155" dyno= connect= service= status=503 bytes=
